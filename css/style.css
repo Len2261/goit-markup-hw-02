@@ -1,0 +1,165 @@
+/* основной текст #212121 */
+
+/* второстипенный текст #757575 */
+/* белый #FFFFFF */
+/* голубой акцент #2196F3 */
+/* вторичный цвет фона background: #2F303A; */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+
+    background: #F5F5F5;
+}
+
+ul {
+    list-style: none;
+}
+/* logo */
+
+.logo {
+    color: var(--accent-color);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration:none ;
+}
+
+.logo:hover
+.logo:focus {
+    color: var(--accent-color);
+}
+ 
+
+/* header */
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-decoration: none;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link.current {
+color: var(--accent-color);
+
+}
+
+
+/* main-section */
+
+
+.main-title {
+        color: var(--primary-white-color);
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.37;
+        text-align: center;
+}
+
+
+
+/* section */
+.section-title {
+color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+     
+}
+
+.feature-list .title {
+    color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.14;
+  
+
+}
+
+.feature-list .section-description {
+    color: var(--title-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+
+}
+
+
+
+/* button */
+.button {
+    color: var(--primary-white-color);
+    background-color:var(--accent-color);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.2;  
+        text-decoration: none; 
+        cursor: pointer;     
+
+}
+
+.button.primary{
+        color: var(--accent-color);
+        background-color: var(--primary-white-color);
+
+}
+
+
+ .main-section .button:hover,
+ .main-section .button:focus {
+        color: var(--primary-white-color);
+ }
+
+
+
+
+
+
+
+
+
